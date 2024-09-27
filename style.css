@@ -50,6 +50,13 @@ h1{
     font-size: 24px;
     margin: 20px 0 0 22px;
 }
+h1:hover{
+    cursor: pointer;
+}
+h1:active{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
 .language{
     color: hsl(0, 0%, 42%);
     margin: 17px 0 0 22px;
