@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Figtree-VariableFont;
+    src: url(Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Figtree-Italic-VariableFont;
+    src: url(Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Figtree-SemiBold;
+    src:url(Figtree-SemiBold.ttf);
+}
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url(Figtree-ExtraBold.ttf);
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    font-family: Figtree-VariableFont, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+#divBody{
+    background-color: hsl(0, 0%, 100%);
+    width: 380px;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 8px 8px 0px 0;
+}
+.illustration-article{
+    border-radius: 14px;
+    margin: 22px 0 29px 22px;
+}
+.learn{
+    background-color:  hsl(47, 88%, 63%);
+    margin: 0 0 20px 22px;
+    font-family: Figtree-ExtraBold;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+h1{
+    font-family: Figtree-ExtraBold;
+    font-size: 24px;
+    margin: 20px 0 0 22px;
+}
+.language{
+    color: hsl(0, 0%, 42%);
+    margin: 17px 0 0 22px;
+    line-height: 24px;
+}
+#gh{
+    display: flex;
+    margin: 23px 0 21px 22px;
+}
+.image-avatar{
+    height: 35px;
+}
+.greg{
+    align-self: flex-end;
+    margin: 0px 0 7.5px 14px;
+    font-family: Figtree-ExtraBold;
+}
